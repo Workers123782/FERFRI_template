@@ -80,3 +80,22 @@ body {
     font-size: 16px;
     margin-top: 75px;
 }
+
+.slide-navigation{
+    margin: 80vh auto 0 auto;
+    width: max-content;
+}
+
+.header-slide-button{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    margin: 10px;
+    border-color: white;
+}
+
+.header-slide-button:hover{
+    width: 15px;
+    height: 15px;
+    margin: 7px;
+}
