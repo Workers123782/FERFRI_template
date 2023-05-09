@@ -165,3 +165,49 @@ body {
 .event-container2 .event-data{
     font-size: 16px;
 }
+
+.popular-products{
+    margin: 20vh 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.popular-product-navigation{
+    display: flex;
+    width: 100vw;
+}
+
+.popular-product-button{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.0);
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.popular-products-behind{
+    margin-left: 60%;
+}
+
+.popular-product-title{
+    font-size: 60px;
+}
+
+.popular-products-container-list{
+    width: min-content;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product{
+    background-color: #14191B;
+    padding: 50px 30px;
+    margin: 50px 0.5vw;
+    width: 20vw;
+}
+
+.product-img{
+    width: 20vw;
+}
