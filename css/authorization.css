@@ -1,0 +1,33 @@
+.authorization-container{
+    width: min-content;
+    margin: 50px auto;
+}
+
+.form-title{
+    font-size: 60px;
+}
+
+.authorization-input{
+    color: #AFAFAF;
+    background-color: #14191B;
+    border-color: #14191B;
+    width: 400px;
+    height: 45px;
+    margin: 20px 0;
+    padding: 25px;
+    font-size: 15px;
+}
+
+.submit-button{
+    background-color: #CB4F19;
+    width: 455px;
+    height: 70px;
+    font-size: 16px;
+    border-color: #CB4F19;
+    border-radius: 10px;
+}
+
+.additional-link{
+    font-size: 16px;
+    margin-right: 25px;
+}
