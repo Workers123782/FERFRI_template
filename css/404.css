@@ -1,0 +1,30 @@
+.main-container{
+    padding: 100px 0;
+}
+
+.main-title{
+    margin: 0 auto;
+    font-size: 220px;
+    width: min-content;
+}
+
+.main-text{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-link-button-container{
+    width: min-content;
+    margin: auto auto;
+}
+
+.home-link-button{
+    background-color: #CB4F19;
+    border-radius: 10px;
+    width: 180px;
+    height: 70px;
+    border-color: #CB4F19;
+    font-size: 16px;
+}
