@@ -1,0 +1,83 @@
+.personal-data{
+    display: flex;
+}
+
+.account-data-container{
+    background-color: #14191B;
+    padding: 80px 130px 100px 50px;
+    margin-bottom: 50px;
+}
+
+.personal-data-container{
+    display: flex;
+}
+
+.personal-data-title{
+    font-size: 32px;
+}
+
+.account-img{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+}
+
+.choice-account-img {
+    color: transparent;
+    width: 130px;
+}
+.choice-account-img::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.choice-account-img::before {
+    content: 'Файл не выбран';
+    color: black;
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+}
+.choice-account-img:hover::before {
+    border-color: black;
+}
+.choice-account-img:active {
+    outline: 0;
+}
+.choice-account-img:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.form-input-title{
+    font-size: 15px;
+    color: #AFAFAF;
+    margin-top: 25px;
+}
+
+.form-input{
+    width: 300px;
+    height: 70px;
+    font-size: 15px;
+    background-color: #2D3234;
+    border-color: #2D3234;
+}
+
+.account-password{
+    background-color: #14191B;
+    padding: 80px 160px 100px 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.save-button{
+    background-color: #CB4F19;
+    border-color: #CB4F19;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 200px;
+}

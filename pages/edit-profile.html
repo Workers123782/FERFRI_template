@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/edit-profile.css">
+  <title>FERFRI</title>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <img src="../img/home/logo.png" class="header-logo" alt="">
+    <ul class="header-links">
+      <li><a class="header-link" href="#">Умный дом</a></li>
+      <li><a class="header-link" href="#">Красота</a></li>
+      <li><a class="header-link" href="#">Бытовая техника</a></li>
+      <li><a class="header-link" href="#">Все товары</a></li>
+      <li><a class="header-link" href="#">Новости</a></li>
+    </ul>
+    <div class="header_icons">
+      <a class="header-icons-link" href="#"><img src="../img/home/icons/search.png" class="header-search" alt=""></a>
+      <a class="header-icons-link" href="#"><img src="../img/home/icons/profile.png" class="header-profile" alt=""></a>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="main-container">
+    <h1 class="main-title">Личная информация</h1>
+    <form>
+      <div class="personal-data">
+        <div class="account-data-container">
+          <h2 class="personal-data-title">Персональные данные</h2>
+          <div class="personal-data-container">
+            <div class="account-img-container">
+              <img class="account-img" src="../img/personal-account/profile-img.png" alt="" id="account-img"><br>
+              <input type="file" class="choice-account-img" accept="image/png, image/jpeg" onchange="choice_profile_img()" id="choice-account-img">
+            </div>
+            <div class="account-data-container">
+              <label class="form-input-title">Ваше имя</label><br>
+              <label>
+                <input type="text" class="form-input" value="Константин">
+              </label><br><br><br>
+              <label class="form-input-title">Ваша фамилия</label><br>
+              <label>
+                <input type="text" class="form-input" value="Константинопольский">
+              </label><br><br><br>
+              <label class="form-input-title">Дата рождения</label><br>
+              <label>
+                <input type="date" class="form-input" value="2018-07-22">
+              </label><br><br><br>
+              <label class="form-input-title">Контактный телефон</label><br>
+              <label>
+                <input type="text" class="form-input" value="Константинопольский">
+              </label><br><br><br>
+              <label class="form-input-title">E-mail</label><br>
+              <label>
+                <input type="email" class="form-input" value="Константинопольский">
+              </label>
+            </div>
+          </div>
+        </div>
+          <div class="account-password">
+            <h2 class="personal-data-title">Смена пароля</h2>
+            <label class="form-input-title">Старый пароль</label><br>
+            <label>
+              <input type="password" class="form-input">
+            </label><br><br><br>
+            <label class="form-input-title">Новый пароль</label><br>
+            <label>
+              <input type="password" class="form-input">
+            </label><br><br><br>
+            <label class="form-input-title">Новый пароль еще раз</label><br>
+            <label>
+              <input type="password" class="form-input">
+            </label>
+          </div>
+      </div>
+      <input type="submit" class="save-button" value="сохранить">
+    </form>
+  </div>
+</main>
+<footer>
+  <div class="footer-container">
+    <div class="footer-container-links">
+      <h3 class="footer-links-title">о нас</h3>
+      <p class="footer-link"><a>FELFRI</a></p>
+      <p class="footer-link"><a>Контакты</a></p>
+    </div>
+    <div class="footer-container-links">
+      <h3 class="footer-links-title">ресурсы</h3>
+      <p class="footer-link"><a>Новости</a></p>
+      <p class="footer-link"><a>Статьи</a></p>
+      <p class="footer-link"><a>Обзоры</a></p>
+    </div>
+    <div class="footer-container-links">
+      <h3 class="footer-links-title">покупателям</h3>
+      <p class="footer-link"><a>Условия продажи</a></p>
+      <p class="footer-link"><a>Доставка</a></p>
+      <p class="footer-link"><a>Оплата</a></p>
+      <p class="footer-link"><a>Гарантия</a></p>
+      <p class="footer-link"><a>Инструкции</a></p>
+      <p class="footer-link"><a>Сервисные центры</a></p>
+    </div>
+    <div class="footer-container-links">
+      <h3 class="footer-links-title">каталог товаров</h3>
+      <p class="footer-link"><a>Красота и здоровье</a></p>
+      <p class="footer-link"><a>Автотовары</a></p>
+      <p class="footer-link"><a>Аксессуары</a></p>
+      <p class="footer-link"><a>Идеи для подарка</a></p>
+    </div>
+    <div class="footer-container-links">
+      <h3 class="footer-links-title footer-link">контакты</h3>
+      <p class="footer-phone-number footer-link">8 (800) 800-80-80</p>
+      <p class="footer-email footer-link">into@felfri.ru</p>
+      <p class="footer-work-time footer-link">Пн–Пт: 9:00-20:00 МСК</p>
+      <button class="footer-dispatcher footer-link"><a>онлайн-поддержка</a></button>
+      <div class="footer-contacts-container">
+        <a class="footer-contact"><button class="footer-contact-button"><img class="footer-contact-img" src="../img/home/link-icons/vk.png" alt=""></button></a>
+        <a class="footer-contact"><button class="footer-contact-button"><img class="footer-contact-img" src="../img/home/link-icons/telegram.png" alt=""></button></a>
+        <a class="footer-contact"><button class="footer-contact-button"><img class="footer-contact-img" src="../img/home/link-icons/ok.png" alt=""></button></a>
+      </div>
+    </div>
+    <div class="footer-contacts_links"></div>
+  </div>
+</footer>
+<script src="../js/edit-profile.js"></script>
+</body>
+</html>
