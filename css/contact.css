@@ -1,0 +1,44 @@
+.main-title{
+    font-size: 70px;
+}
+
+.main-contact-container{
+    display: flex;
+}
+
+.contact-container{
+    background-color: #14191B;
+    padding: 80px 100px 140px 90px;
+    margin-bottom: 140px;
+    width: max-content;
+}
+
+.contact{
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+.address{
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.contact-title{
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.contact-button{
+    background: linear-gradient(90deg, #B62CA2 0%, #42156E 93.89%);
+    width: 150px;
+    height: 70px;
+    border-color: #42156E;
+    border-radius: 10px;
+}
+
+.map-img{
+    width: 660px;
+    height: 618px;
+    margin-left: 10px;
+}
